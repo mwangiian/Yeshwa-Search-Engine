@@ -1,0 +1,66 @@
+.footer {
+position: fixed;
+bottom: 0;
+width: 100%;
+background-color: #2FBA4A;
+text-align: center;
+}
+.footer a {		
+color: white !important;
+text-decoration: none !important;
+}
+body {
+margin: 0;
+padding: 0;
+font-family: Arial;
+}
+.logo {
+margin-top: 20px; 
+width: 312px;
+height: 100px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.search-box {
+margin: 20px auto;
+}
+form.gsc-search-box {
+width: 50% !important;
+min-width: 100px;
+display: block;
+margin-left: auto !important;
+margin-right: auto !important;
+}
+.gsc-results .gsc-cursor-box {
+text-align: center;
+font-size: large;
+}
+input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
+border-width: 3px !important;
+}
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+border-color: #E32742 !important;
+color: #E32742 !important;
+}
+#popup-menu {
+position: fixed;
+top: 10px;
+right: 10px;
+}
+#menu-button img {
+width: 20px;
+height: 20px;
+}
+#menu-list {
+display: none;
+background-color: white;
+position: absolute;
+top: 28px;
+right: 0px;
+list-style: none;
+padding: 10px;
+width: 150px;
+border: solid 1px silver;
+border-radius: 5px;
+}
